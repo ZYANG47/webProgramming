@@ -1,0 +1,35 @@
+#head {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+button {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 120px;
+}
+
+#sucess {
+    @extend button;
+    background-color: green;
+}
+
+#warning {
+    @extend button;
+    background-color: yellow;
+}
+
+#error {
+    @extend button;
+    background-color: red;
+}
+
+p {
+    @extend #head;
+}
