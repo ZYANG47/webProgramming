@@ -1,0 +1,28 @@
+#head, p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+button, #error, #warning, #sucess {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 120px;
+}
+
+#sucess {
+  background-color: green;
+}
+
+#warning {
+  background-color: yellow;
+}
+
+#error {
+  background-color: red;
+}/*# sourceMappingURL=webProgramming.css.map */
